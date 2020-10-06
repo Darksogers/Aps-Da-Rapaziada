@@ -89,3 +89,77 @@
     color: darkviolet;
     transition: 1s;
 }
+
+.cadastro-card{
+    display: flex;
+    align-items: flex-start;
+    background-color: #ECE9E6;
+    width: 60%;
+    height: 65vh;
+    border-radius: .5rem;
+}
+
+.lado1-cadastro-card{
+    display: flex;
+    background-color: blueviolet;
+    height: 100%;
+    width: 35%;
+    flex-direction: column;
+    align-items: center;
+    padding: 3px;
+    color: aliceblue;
+}
+
+.lado1-cadastro-card h3{
+    margin-top: 7%;
+}
+
+
+.lado1-cadastro-card button{
+    margin-top: 90%;
+}
+
+.lado2-cadastro-card{
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    height: 100%;
+    background-color: #f7f6f3;
+}
+
+.lado2-cadastro-card-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: darkslategray;
+    height: 20%;
+    width: 100%;
+    margin-bottom: 7%;
+}
+
+.lado2-cadastro-card-header h2{
+    margin-top: 3%;
+}
+
+.lado2-cadastro-card-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+#cadastro-input {
+    display: flex;
+    width: 80%;
+    margin-top: 2%;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#cadastro-input input{
+    width: 80%;
+}
+
+
